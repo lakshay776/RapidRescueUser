@@ -1,0 +1,97 @@
+styles.css
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif, Inter, system-ui, sans-serif;
+    background-color: #f9fafb; /* Light background color */
+    color: #374151; /* Dark text color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #1f2937; /* Dark background for the navbar */
+}
+
+nav a {
+    color: #ffffff; /* White text for links */
+}
+
+nav a:hover {
+    color: #d1d5db; /* Light gray on hover */
+}
+
+/* Main Section Styles */
+#emergency-button {
+    background-color: #1f2937; /* Dark background for the emergency section */
+    padding: 2rem; /* Padding for the section */
+}
+
+#sosButton {
+    background: linear-gradient(to bottom right, #dc2626, #ef4444); /* Gradient for SOS button */
+}
+
+#sosButton:hover {
+    background: linear-gradient(to bottom right, #b91c1c, #c62828); /* Darker gradient on hover */
+}
+
+/* Button Styles */
+button {
+    transition: background-color 0.3s ease; /* Smooth transition for button hover */
+}
+
+button:hover {
+    background-color: #4b5563; /* Darker background on hover */
+}
+
+/* Instruction Section Styles */
+#instructions {
+    background-color: #374151; /* Dark background for instructions */
+    padding: 4rem 0; /* Padding for the section */
+}
+
+#instructions h2 {
+    color: #ffffff; /* White text for the heading */
+}
+
+#instructions .bg-neutral-700 {
+    background-color: #4b5563; /* Darker background for instruction boxes */
+}
+
+/* Emergency Contacts Section */
+#emergency-contacts {
+    background-color: #374151; /* Dark background for emergency contacts */
+    padding: 4rem 0; /* Padding for the section */
+}
+
+#emergency-contacts h2 {
+    color: #ffffff; /* White text for the heading */
+}
+
+#emergency-contacts .bg-neutral-700 {
+    background-color: #4b5563; /* Darker background for contact boxes */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack navigation items on small screens */
+    }
+}
+
+/* Modal Background */
+#manualDetailsModal {
+    backdrop-filter: blur(5px); /* Optional: Adds a blur effect to the background */
+}
+
+/* Modal Shadow */
+#manualDetailsModal > div {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Optional: Adds a more pronounced shadow */
+}
